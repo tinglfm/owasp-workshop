@@ -39,7 +39,7 @@ sub   4096R/F273FCD8 2017-02-22
 ```
 4- Add the stable repository 
 ```bash
-sudo add-apt-repository deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 ```
 5- Install docker
 ```bash
